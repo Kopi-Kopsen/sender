@@ -6,9 +6,6 @@ input.onButtonPressed(Button.A, function () {
     // Sende Befehl für "Links"
     radio.sendString("L")
 })
-input.onGesture(Gesture.Shake, function () {
-    radio.sendString("S")
-})
 input.onButtonPressed(Button.AB, function () {
     // Sende Befehl für "Stop"
     radio.sendString("F")
