@@ -24,5 +24,5 @@ input.onPinTouchEvent(TouchPin.P2, input.buttonEventDown(), function () {
     radio.sendString("K")
 })
 // Setzt die Funkgruppe auf 1
-radio.setGroup(2)
+radio.setGroup(10)
 radio.setTransmitPower(7)
